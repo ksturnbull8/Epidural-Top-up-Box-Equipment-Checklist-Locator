@@ -1,0 +1,1488 @@
+<!DOCTYPE html>
+<!-- saved from url=(0064)file:///Users/katieturnbull/Downloads/epidural-top-up-box_5.html -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Epidural Top-Up Box — Equipment Checklist &amp; Locator</title>
+<link href="./Epidural Top-Up Box — Equipment Checklist &amp; Locator_files/css2" rel="stylesheet">
+<style>
+  /* ============ BRAND ============ */
+  :root {
+    --yellow: #FFD60A;
+    --yellow-deep: #F2C200;
+    --yellow-soft: #FFF3B0;
+    --black: #111111;
+    --grey: #5A5A5A;
+    --grey-soft: #EEEEEE;
+    --white: #FFFFFF;
+    --red: #C00000;
+    --red-soft: #FCE8E8;
+    --blue: #1F4E79;
+    --blue-soft: #E6EEF5;
+    --green: #2E7D32;
+    --green-soft: #E6F2E7;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    font-family: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif;
+    background: var(--yellow);
+    color: var(--black);
+    line-height: 1.5;
+    letter-spacing: 0.01em;
+    /* subtle dotted texture for paper-poster feel */
+    background-image:
+      radial-gradient(rgba(0,0,0,0.04) 1px, transparent 1px);
+    background-size: 18px 18px;
+  }
+
+  .display { font-family: "Anton", "Inter", sans-serif; letter-spacing: 0.5px; }
+
+  /* ============ HEADER ============ */
+  .poster-header {
+    text-align: center;
+    padding: 32px 18px 14px;
+    position: relative;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .poster-header h1 {
+    margin: 0;
+    font-size: clamp(40px, 9vw, 88px);
+    line-height: 0.92;
+    color: var(--black);
+    text-transform: uppercase;
+    font-weight: 900;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+  }
+  .poster-header h1 .small-line {
+    display: block;
+    font-size: 0.32em;
+    letter-spacing: 6px;
+    margin-top: 10px;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+  }
+  .spine-icon {
+    position: absolute;
+    top: 30px; right: 22px;
+    width: clamp(70px, 12vw, 120px);
+    height: clamp(70px, 12vw, 120px);
+    background: var(--black);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    box-shadow: 0 6px 0 rgba(0,0,0,0.08);
+  }
+  .spine-icon svg { width: 62%; height: 62%; }
+
+  .check-banner {
+    background: var(--black);
+    color: var(--white);
+    margin: 18px auto 0;
+    padding: 13px 26px;
+    display: inline-flex;
+    align-items: center;
+    gap: 18px;
+    border-radius: 6px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-size: clamp(12px, 2.4vw, 16px);
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .check-banner span { display: inline-flex; align-items: center; gap: 8px; }
+  .check-banner .tick {
+    color: var(--yellow);
+    font-size: 1.3em;
+    font-weight: 900;
+  }
+  .check-banner .divider { opacity: 0.4; }
+
+  /* ============ SEARCH ============ */
+  .search-wrap {
+    max-width: 1200px;
+    margin: 18px auto 0;
+    padding: 0 18px;
+    position: relative;
+  }
+  .search-icon {
+    position: absolute;
+    left: 38px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--black);
+    pointer-events: none;
+  }
+  .search {
+    width: 100%;
+    padding: 14px 18px 14px 50px;
+    font-size: 16px;
+    border: 3px solid var(--black);
+    border-radius: 12px;
+    background: var(--white);
+    font-weight: 600;
+    font-family: inherit;
+    box-shadow: 4px 4px 0 var(--black);
+    transition: all 0.15s;
+  }
+  .search:focus {
+    outline: none;
+    box-shadow: 6px 6px 0 var(--black);
+    transform: translate(-2px, -2px);
+  }
+
+  /* ============ SECTION TITLE STRIP ============ */
+  .section-title {
+    max-width: 1200px;
+    margin: 22px auto 0;
+    padding: 0 18px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .section-title .pill {
+    background: var(--black);
+    color: var(--white);
+    padding: 10px 22px;
+    border-radius: 999px;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 3px;
+    font-size: 18px;
+    text-transform: uppercase;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .section-title .line {
+    flex: 1;
+    height: 3px;
+    background: var(--black);
+    opacity: 0.15;
+  }
+
+  /* ============ MAIN GRID ============ */
+  main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 12px 18px 18px;
+  }
+
+  .tray-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+    margin-top: 14px;
+  }
+  @media (max-width: 900px) { .tray-grid { grid-template-columns: 1fr; } }
+
+  .tray {
+    background: var(--white);
+    border: 3px solid var(--black);
+    border-radius: 16px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 6px 6px 0 var(--black);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .tray:hover { transform: translate(-2px, -2px); box-shadow: 8px 8px 0 var(--black); }
+
+  .tray-header {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 14px 18px;
+    color: var(--white);
+    font-weight: 800;
+    text-transform: uppercase;
+    border-bottom: 3px solid var(--black);
+  }
+  .tray-header .tray-icon {
+    background: var(--white);
+    border-radius: 50%;
+    width: 44px; height: 44px;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+    border: 2px solid var(--black);
+  }
+  .tray-header .tray-icon svg { width: 64%; height: 64%; }
+  .tray-header .tray-title {
+    font-size: 19px;
+    line-height: 1.1;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1.5px;
+  }
+  .tray-header .tray-title small {
+    display: block;
+    font-weight: 600;
+    font-size: 11.5px;
+    opacity: 0.92;
+    letter-spacing: 2.5px;
+    font-family: "Inter", sans-serif;
+    margin-top: 3px;
+  }
+
+  .tray-yellow .tray-header { background: var(--yellow-deep); color: var(--black); }
+  .tray-yellow .tray-header .tray-icon { background: var(--white); border-color: var(--black); }
+  .tray-yellow .tray-header .tray-icon svg { color: var(--black); }
+  .tray-red .tray-header { background: var(--red); }
+  .tray-red .tray-header .tray-icon svg { color: var(--red); }
+  .tray-blue .tray-header { background: var(--blue); }
+  .tray-blue .tray-header .tray-icon svg { color: var(--blue); }
+
+  .tray-body {
+    padding: 6px 0;
+    flex: 1;
+  }
+
+  /* ============ ITEM ROWS ============ */
+  .item {
+    display: grid;
+    grid-template-columns: 26px 32px 1fr auto;
+    align-items: center;
+    gap: 14px;
+    padding: 13px 16px;
+    background: transparent;
+    border: none;
+    border-bottom: 1.5px dashed #D6D6D6;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 14.5px;
+    letter-spacing: 0.015em;
+    transition: background 0.15s;
+    position: relative;
+  }
+  .item:last-child { border-bottom: none; }
+  .item:hover, .item:focus { background: var(--yellow-soft); outline: none; }
+  .item:focus-visible { background: var(--yellow-soft); }
+
+  .checkbox {
+    width: 22px; height: 22px;
+    border: 2.5px solid var(--black);
+    border-radius: 5px;
+    background: var(--white);
+    flex-shrink: 0;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    transition: all 0.1s;
+  }
+  .checkbox:hover { background: var(--yellow-soft); }
+  .item.checked .checkbox {
+    background: var(--black);
+  }
+  .item.checked .checkbox::after {
+    content: "";
+    position: absolute;
+    top: 2px;
+    left: 6px;
+    width: 6px;
+    height: 12px;
+    border: solid var(--yellow);
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+  .item.checked .item-name { text-decoration: line-through; color: var(--grey); }
+  .item.checked .item-icon { opacity: 0.4; }
+
+  .item-icon {
+    width: 28px; height: 28px;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .item-icon svg { width: 100%; height: 100%; }
+
+  .item-name {
+    font-weight: 600;
+    line-height: 1.35;
+    color: var(--black);
+  }
+  .item-name .sub {
+    display: block;
+    font-weight: 500;
+    font-size: 12.5px;
+    color: var(--grey);
+    margin-top: 2px;
+    letter-spacing: 0.01em;
+  }
+  .item-qty {
+    font-weight: 800;
+    color: var(--black);
+    font-size: 14px;
+    white-space: nowrap;
+    background: var(--yellow);
+    padding: 3px 10px;
+    border-radius: 999px;
+    border: 2px solid var(--black);
+  }
+
+  /* tint qty pill per tray colour */
+  .tray-red .item-qty { background: var(--red-soft); }
+  .tray-blue .item-qty { background: var(--blue-soft); }
+  .tray-green .item-qty, .strip-tray.tray-green .item-qty { background: var(--green-soft); }
+  .strip-tray.tray-black .item-qty { background: var(--yellow); }
+
+  /* ============ STRIP TRAYS ============ */
+  .strip-tray {
+    background: var(--white);
+    border: 3px solid var(--black);
+    border-radius: 16px;
+    margin-top: 18px;
+    overflow: hidden;
+    box-shadow: 6px 6px 0 var(--black);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  .strip-tray:hover { transform: translate(-2px, -2px); box-shadow: 8px 8px 0 var(--black); }
+  .strip-tray .tray-header { color: var(--white); }
+  .strip-tray.tray-green .tray-header { background: var(--green); }
+  .strip-tray.tray-green .tray-header .tray-icon svg { color: var(--green); }
+  .strip-tray.tray-black .tray-header { background: #1a1a1a; }
+  .strip-tray.tray-black .tray-header .tray-icon svg { color: #1a1a1a; }
+
+  .strip-tray .grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  @media (max-width: 700px) { .strip-tray .grid-2 { grid-template-columns: 1fr; } }
+  .strip-tray .grid-2 .item { border-bottom: 1.5px dashed #D6D6D6; }
+  .strip-tray .grid-2 .item:nth-last-child(-n+2):not(:nth-child(odd):last-child) { border-bottom: none; }
+  @media (max-width: 700px) {
+    .strip-tray .grid-2 .item { border-bottom: 1.5px dashed #D6D6D6; }
+    .strip-tray .grid-2 .item:last-child { border-bottom: none; }
+  }
+  .strip-tray .grid-2 .item:nth-child(odd) { border-right: 1.5px dashed #D6D6D6; }
+  @media (max-width: 700px) {
+    .strip-tray .grid-2 .item:nth-child(odd) { border-right: none; }
+  }
+
+  /* ============ FINAL CHECK + REMEMBER ============ */
+  .final-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+    margin-top: 22px;
+  }
+  @media (max-width: 700px) { .final-row { grid-template-columns: 1fr; } }
+
+  .final-check {
+    background: var(--white);
+    border: 3px solid var(--black);
+    border-radius: 16px;
+    padding: 20px 22px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    box-shadow: 6px 6px 0 var(--black);
+  }
+  .final-check .fc-title {
+    display: flex; align-items: center; gap: 12px;
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 2px;
+  }
+  .final-check .fc-title .big-tick {
+    width: 42px; height: 42px;
+    border-radius: 50%;
+    background: var(--black);
+    color: var(--yellow);
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .final-check .fc-title .big-tick svg { width: 60%; height: 60%; }
+  .fc-row {
+    display: flex; align-items: center; gap: 14px;
+    cursor: pointer;
+    font-weight: 600;
+    padding: 6px 0;
+    font-size: 15px;
+    letter-spacing: 0.015em;
+  }
+  .fc-row .checkbox { width: 24px; height: 24px; }
+  .fc-row.checked .checkbox { background: var(--black); }
+  .fc-row.checked .checkbox::after {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 7px;
+    width: 6px;
+    height: 12px;
+    border: solid var(--yellow);
+    border-width: 0 3px 3px 0;
+    transform: rotate(45deg);
+  }
+  .fc-row.checked .fc-label { text-decoration: line-through; color: var(--grey); }
+
+  .remember {
+    background: var(--white);
+    border: 3px solid var(--black);
+    border-radius: 16px;
+    padding: 20px 22px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    box-shadow: 6px 6px 0 var(--black);
+    position: relative;
+    overflow: hidden;
+  }
+  .remember .heart-icon {
+    width: 60px;
+    height: 60px;
+    flex-shrink: 0;
+    color: var(--red);
+  }
+  .remember .text-block { flex: 1; }
+  .remember .label {
+    font-size: 13px;
+    font-weight: 800;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    color: var(--grey);
+  }
+  .remember .msg {
+    color: var(--red);
+    font-weight: 900;
+    text-transform: uppercase;
+    font-size: clamp(18px, 2.6vw, 24px);
+    line-height: 1.1;
+    margin-top: 6px;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1.5px;
+  }
+
+  /* ============ FOOTER ============ */
+  footer {
+    background: var(--black);
+    color: var(--yellow);
+    margin-top: 26px;
+    padding: 26px 18px 28px;
+    border-top: 6px solid var(--yellow-deep);
+    position: relative;
+  }
+  footer::before {
+    content: "";
+    position: absolute;
+    top: -6px; left: 0; right: 0; height: 6px;
+    background: repeating-linear-gradient(
+      45deg,
+      var(--yellow-deep) 0 12px,
+      var(--black) 12px 24px
+    );
+  }
+  .foot-grid {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr auto;
+    gap: 22px;
+    align-items: center;
+  }
+  @media (max-width: 800px) { .foot-grid { grid-template-columns: 1fr; text-align: center; } }
+  .foot-block { display: flex; gap: 14px; align-items: flex-start; }
+  @media (max-width: 800px) { .foot-block { justify-content: center; } }
+  .foot-block .foot-icon {
+    width: 40px; height: 40px;
+    background: var(--yellow);
+    color: var(--black);
+    border-radius: 50%;
+    display: flex; align-items: center; justify-content: center;
+    flex-shrink: 0;
+  }
+  .foot-block .foot-icon svg { width: 55%; height: 55%; }
+  .foot-block .foot-content { text-align: left; }
+  @media (max-width: 800px) { .foot-block .foot-content { text-align: center; } }
+  .foot-block .foot-title {
+    font-weight: 900;
+    text-transform: uppercase;
+    color: var(--yellow);
+    letter-spacing: 2.5px;
+    margin-bottom: 6px;
+    font-size: 14px;
+    font-family: "Anton", sans-serif;
+  }
+  .foot-block .foot-text {
+    font-size: 13.5px;
+    color: var(--white);
+    font-weight: 500;
+    line-height: 1.55;
+    letter-spacing: 0.015em;
+  }
+  .foot-block a {
+    color: var(--yellow);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 2px;
+  }
+  .foot-block a:hover { background: var(--yellow); color: var(--black); }
+  .nhs-badge {
+    display: inline-block;
+    background: var(--white);
+    color: #005EB8;
+    padding: 8px 16px;
+    border-radius: 6px;
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: 0.5px;
+    text-align: center;
+    font-family: "Anton", sans-serif;
+  }
+  .nhs-badge small {
+    display: block;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-top: -2px;
+  }
+
+  .strapline {
+    text-align: center;
+    background: var(--yellow-deep);
+    color: var(--black);
+    padding: 12px 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-size: clamp(13px, 2.5vw, 18px);
+    font-family: "Anton", sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+  }
+  .strapline .warn-icon { width: 24px; height: 24px; flex-shrink: 0; }
+  .strapline .sep { color: var(--red); }
+
+  /* ============ MODAL ============ */
+  .modal-backdrop {
+    position: fixed; inset: 0;
+    background: rgba(0,0,0,0.65);
+    display: none;
+    align-items: flex-end;
+    justify-content: center;
+    z-index: 100;
+    backdrop-filter: blur(3px);
+  }
+  .modal-backdrop.open { display: flex; }
+  .modal-wrap { position: relative; width: 100%; max-width: 600px; }
+  .modal {
+    background: var(--white);
+    border: 3px solid var(--black);
+    border-bottom: none;
+    border-top: 8px solid var(--yellow-deep);
+    border-radius: 18px 18px 0 0;
+    padding: 28px 24px 32px;
+    animation: slideUp 0.25s cubic-bezier(0.16, 1, 0.3, 1);
+    max-height: 90vh;
+    overflow-y: auto;
+  }
+  @media (min-width: 600px) {
+    .modal-backdrop { align-items: center; padding: 20px; }
+    .modal {
+      border-radius: 16px;
+      border: 3px solid var(--black);
+      border-top-width: 8px;
+      box-shadow: 8px 8px 0 var(--black);
+    }
+  }
+  @keyframes slideUp {
+    from { transform: translateY(30px); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+  }
+  .modal-tag {
+    display: inline-block;
+    font-size: 11px;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding: 5px 12px;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    border: 2px solid var(--black);
+  }
+  .modal h2 {
+    margin: 4px 0 4px;
+    font-size: 26px;
+    font-weight: 900;
+    font-family: "Anton", sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.1;
+  }
+  .qty-line {
+    color: var(--black);
+    margin-bottom: 20px;
+    font-weight: 700;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    background: var(--yellow);
+    padding: 4px 12px;
+    border-radius: 999px;
+    border: 2px solid var(--black);
+    font-size: 13px;
+  }
+  .modal-section { margin-bottom: 18px; }
+  .modal-section h3 {
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: var(--grey);
+    margin: 0 0 8px;
+    font-weight: 800;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .modal-section h3 svg { width: 14px; height: 14px; }
+  .modal-location {
+    background: var(--yellow-soft);
+    border: 2px solid var(--black);
+    border-left: 6px solid var(--yellow-deep);
+    padding: 14px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    line-height: 1.45;
+  }
+  .modal-location.placeholder {
+    background: var(--grey-soft);
+    border-left-color: var(--grey);
+    color: var(--grey);
+    font-style: italic;
+    font-weight: 500;
+  }
+  .modal-photo {
+    width: 100%;
+    border-radius: 10px;
+    background: var(--grey-soft);
+    aspect-ratio: 4/3;
+    display: flex; align-items: center; justify-content: center;
+    color: var(--grey);
+    font-style: italic;
+    border: 2.5px dashed var(--grey);
+    flex-direction: column;
+    gap: 8px;
+    font-size: 13px;
+  }
+  .modal-photo svg { width: 40px; height: 40px; opacity: 0.4; }
+  .modal-close {
+    position: absolute;
+    top: 14px; right: 14px;
+    background: var(--black);
+    color: var(--yellow);
+    border: 3px solid var(--yellow);
+    width: 38px; height: 38px;
+    border-radius: 50%;
+    font-size: 18px;
+    cursor: pointer;
+    font-weight: 900;
+    z-index: 2;
+    display: flex; align-items: center; justify-content: center;
+    line-height: 1;
+  }
+  .modal-close:hover { transform: rotate(90deg); transition: transform 0.2s; }
+
+  .empty-state {
+    background: var(--white);
+    border: 3px dashed var(--black);
+    border-radius: 14px;
+    padding: 36px;
+    text-align: center;
+    color: var(--grey);
+    font-weight: 600;
+    margin-top: 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  .empty-state svg { width: 48px; height: 48px; opacity: 0.3; }
+
+  /* ============ PRINT ============ */
+  @media print {
+    body { background: white; }
+    .search-wrap, .modal-backdrop { display: none !important; }
+    .tray, .strip-tray, .final-check, .remember { box-shadow: none; break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<!-- ============ ICON LIBRARY (referenced via <use>) ============ -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <!-- Spine icon for header -->
+    <symbol id="i-spine" viewBox="0 0 100 100">
+      <path d="M50 8 C42 8 38 14 38 22 L38 32 C38 36 36 38 32 38 L28 38 C24 38 22 40 22 44 L22 52 C22 56 24 58 28 58 L32 58 C36 58 38 60 38 64 L38 76 C38 84 42 90 50 90 C58 90 62 84 62 76 L62 64 C62 60 64 58 68 58 L72 58 C76 58 78 56 78 52 L78 44 C78 40 76 38 72 38 L68 38 C64 38 62 36 62 32 L62 22 C62 14 58 8 50 8 Z" fill="currentColor"></path>
+    </symbol>
+
+    <!-- Box / package (matches poster: filled 3D parcel) -->
+    <symbol id="i-box" viewBox="0 0 100 100">
+      <g stroke="currentColor" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+        <!-- main body (filled) -->
+        <path d="M15 30 L50 15 L85 30 L85 75 L50 90 L15 75 Z" fill="currentColor"></path>
+        <!-- cross-flap lines (cut out via white strokes for contrast) -->
+        <path d="M15 30 L50 45 L85 30" fill="none" stroke="white" stroke-width="5"></path>
+        <path d="M50 45 L50 90" fill="none" stroke="white" stroke-width="5"></path>
+        <!-- tape across the top -->
+        <path d="M32 22 L32 38 M68 22 L68 38" fill="none" stroke="white" stroke-width="3.5"></path>
+      </g>
+    </symbol>
+
+    <!-- Snowflake (ethyl chloride spray = cooling) -->
+    <symbol id="i-snow" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="12" y1="2" x2="12" y2="22"></line>
+        <line x1="2" y1="12" x2="22" y2="12"></line>
+        <line x1="5" y1="5" x2="19" y2="19"></line>
+        <line x1="19" y1="5" x2="5" y2="19"></line>
+        <polyline points="9,4 12,2 15,4"></polyline>
+        <polyline points="9,20 12,22 15,20"></polyline>
+        <polyline points="4,9 2,12 4,15"></polyline>
+        <polyline points="20,9 22,12 20,15"></polyline>
+      </g>
+    </symbol>
+
+    <!-- Syringe / needle -->
+    <symbol id="i-syringe" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M18 2l4 4"></path>
+        <path d="M16 4l4 4"></path>
+        <path d="M3 21l5-5"></path>
+        <path d="M7 17l-3 3"></path>
+        <path d="M14 6l4 4-9 9-4-4z"></path>
+        <line x1="9" y1="11" x2="11" y2="13"></line>
+        <line x1="11" y1="9" x2="13" y2="11"></line>
+      </g>
+    </symbol>
+
+    <!-- Filled syringe (drug-prep big syringe) -->
+    <symbol id="i-syringe-filled" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M18 2l4 4"></path>
+        <path d="M3 21l5-5"></path>
+        <path d="M14 6l4 4-9 9-4-4z" fill="currentColor" fill-opacity="0.2"></path>
+        <line x1="9" y1="11" x2="11" y2="13"></line>
+        <line x1="11" y1="9" x2="13" y2="11"></line>
+      </g>
+    </symbol>
+
+    <!-- Drug prep: vial with syringe drawing up (composite icon for yellow tray header) -->
+    <symbol id="i-drugprep" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <!-- vial on the left -->
+        <path d="M5 3h6v3a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1V3z"></path>
+        <path d="M4 7h8v11a3 3 0 0 1-3 3H7a3 3 0 0 1-3-3V7z" fill="currentColor" fill-opacity="0.15"></path>
+        <line x1="4" y1="13" x2="12" y2="13"></line>
+        <!-- syringe drawing up, top right -->
+        <path d="M21 3l-1.5 1.5"></path>
+        <path d="M19.5 4.5l-2 2 2 2 2-2-2-2z" fill="currentColor" fill-opacity="0.2"></path>
+        <line x1="17.5" y1="6.5" x2="13" y2="11"></line>
+        <line x1="14" y1="9" x2="15.5" y2="10.5"></line>
+      </g>
+    </symbol>
+
+    <!-- Cap / cylinder cap -->
+    <symbol id="i-cap" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="7" y="6" width="10" height="14" rx="1"></rect>
+        <rect x="9" y="3" width="6" height="3" rx="1"></rect>
+        <line x1="9" y1="10" x2="15" y2="10"></line>
+      </g>
+    </symbol>
+
+    <!-- Filter (funnel-like) -->
+    <symbol id="i-filter" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <polygon points="3 4, 21 4, 14 14, 14 22, 10 20, 10 14"></polygon>
+      </g>
+    </symbol>
+
+    <!-- Vial / ampoule (Adrenaline) -->
+    <symbol id="i-ampoule" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M10 2h4"></path>
+        <path d="M11 2v3"></path>
+        <path d="M13 2v3"></path>
+        <path d="M9 5h6v15a2 2 0 0 1-2 2h-2a2 2 0 0 1-2-2V5z"></path>
+        <line x1="9" y1="10" x2="15" y2="10"></line>
+      </g>
+    </symbol>
+
+    <!-- Bottle / vial (lidocaine, sodium chloride) -->
+    <symbol id="i-vial" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M9 2h6v3a1 1 0 0 1-1 1h-4a1 1 0 0 1-1-1V2z"></path>
+        <path d="M8 6h8v13a3 3 0 0 1-3 3h-2a3 3 0 0 1-3-3V6z"></path>
+        <path d="M8 14h8" stroke-dasharray="2 1.5"></path>
+      </g>
+    </symbol>
+
+    <!-- Tag / label -->
+    <symbol id="i-tag" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path>
+        <line x1="7" y1="7" x2="7.01" y2="7"></line>
+      </g>
+    </symbol>
+
+    <!-- Cannula (angled needle with hub) -->
+    <symbol id="i-cannula" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="9" width="9" height="6" rx="1"></rect>
+        <line x1="11" y1="12" x2="22" y2="12"></line>
+        <polyline points="20,9 22,12 20,15"></polyline>
+        <line x1="5" y1="6" x2="5" y2="9"></line>
+        <line x1="8" y1="6" x2="8" y2="9"></line>
+      </g>
+    </symbol>
+
+    <!-- Wipe / square wipe -->
+    <symbol id="i-wipe" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="4" y="4" width="16" height="16" rx="2"></rect>
+        <line x1="8" y1="9" x2="16" y2="9"></line>
+        <line x1="8" y1="13" x2="14" y2="13"></line>
+        <line x1="8" y1="17" x2="12" y2="17"></line>
+      </g>
+    </symbol>
+
+    <!-- Dressing / bandage -->
+    <symbol id="i-dressing" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="3" y="8" width="18" height="8" rx="2"></rect>
+        <line x1="7" y1="11" x2="7.01" y2="11"></line>
+        <line x1="10" y1="11" x2="10.01" y2="11"></line>
+        <line x1="13" y1="11" x2="13.01" y2="11"></line>
+        <line x1="7" y1="13" x2="7.01" y2="13"></line>
+        <line x1="10" y1="13" x2="10.01" y2="13"></line>
+        <line x1="13" y1="13" x2="13.01" y2="13"></line>
+      </g>
+    </symbol>
+
+    <!-- Tourniquet: flat elastic strap tied in a loop with two trailing ends -->
+    <symbol id="i-tourniquet" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round">
+        <!-- the loop (the part that goes round the arm) -->
+        <ellipse cx="12" cy="9" rx="7" ry="5.5" stroke-width="2.2"></ellipse>
+        <!-- knot in the middle bottom of the loop -->
+        <path d="M9.5 14.2 Q12 13.2 14.5 14.2 Q12 15.2 9.5 14.2 Z" fill="currentColor" stroke-width="1.5"></path>
+        <!-- two strap ends trailing down from the knot -->
+        <path d="M10 15 Q9 18 7.5 21" stroke-width="2.2"></path>
+        <path d="M14 15 Q15 18 16.5 21" stroke-width="2.2"></path>
+        <!-- tapered tail tips -->
+        <line x1="6.5" y1="20.5" x2="8" y2="21.5" stroke-width="1.6"></line>
+        <line x1="17.5" y1="20.5" x2="16" y2="21.5" stroke-width="1.6"></line>
+      </g>
+    </symbol>
+
+    <!-- Test tube / blood tube -->
+    <symbol id="i-tube" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M9 2h6v18a3 3 0 0 1-3 3 3 3 0 0 1-3-3V2z"></path>
+        <line x1="9" y1="6" x2="15" y2="6"></line>
+        <path d="M9 14h6v6a3 3 0 0 1-3 3 3 3 0 0 1-3-3z" fill="currentColor" fill-opacity="0.2"></path>
+      </g>
+    </symbol>
+
+    <!-- Swab / cotton bud -->
+    <symbol id="i-swab" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="6" y1="20" x2="14" y2="8"></line>
+        <line x1="9" y1="22" x2="17" y2="10"></line>
+        <ellipse cx="17" cy="6" rx="4" ry="3" transform="rotate(-30 17 6)" fill="currentColor" fill-opacity="0.2"></ellipse>
+      </g>
+    </symbol>
+
+    <!-- Tape roll -->
+    <symbol id="i-tape" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="9"></circle>
+        <circle cx="12" cy="12" r="3"></circle>
+        <path d="M21 12c0 0 -3 5 -9 5"></path>
+      </g>
+    </symbol>
+
+    <!-- Drug pack / first-aid kit (matches poster: filled green box with white cross) -->
+    <symbol id="i-drugpack" viewBox="0 0 24 24">
+      <g stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <!-- handle on top -->
+        <path d="M9 5V4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v1" fill="none"></path>
+        <!-- main body (filled) -->
+        <rect x="3" y="6" width="18" height="14" rx="2" fill="currentColor"></rect>
+        <!-- white cross cut-out -->
+        <line x1="12" y1="9.5" x2="12" y2="16.5" stroke="white" stroke-width="2.5"></line>
+        <line x1="8.5" y1="13" x2="15.5" y2="13" stroke="white" stroke-width="2.5"></line>
+      </g>
+    </symbol>
+
+    <!-- Blood drop -->
+    <symbol id="i-drop" viewBox="0 0 24 24">
+      <path d="M12 2 C12 2 5 11 5 16 a7 7 0 0 0 14 0 c0 -5 -7 -14 -7 -14 z" fill="currentColor"></path>
+    </symbol>
+
+    <!-- IV bag -->
+    <symbol id="i-iv-bag" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M9 2h6l-1 3h-4z"></path>
+        <rect x="6" y="5" width="12" height="13" rx="1"></rect>
+        <line x1="9" y1="9" x2="15" y2="9"></line>
+        <line x1="12" y1="18" x2="12" y2="22"></line>
+      </g>
+    </symbol>
+
+    <!-- Giving set / drip chamber -->
+    <symbol id="i-givingset" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M10 2h4v4l-2 2-2-2z"></path>
+        <line x1="12" y1="8" x2="12" y2="11"></line>
+        <ellipse cx="12" cy="13" rx="3" ry="2"></ellipse>
+        <line x1="12" y1="15" x2="12" y2="22"></line>
+        <circle cx="12" cy="13" r="0.5" fill="currentColor"></circle>
+      </g>
+    </symbol>
+
+    <!-- Stopcock / 3-way valve -->
+    <symbol id="i-stopcock" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="3"></circle>
+        <line x1="12" y1="9" x2="12" y2="2"></line>
+        <line x1="12" y1="15" x2="12" y2="22"></line>
+        <line x1="9" y1="12" x2="2" y2="12"></line>
+        <line x1="15" y1="12" x2="22" y2="12"></line>
+      </g>
+    </symbol>
+
+    <!-- Coiled extension line -->
+    <symbol id="i-extension" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="12" cy="12" r="9"></circle>
+        <circle cx="12" cy="12" r="6"></circle>
+        <circle cx="12" cy="12" r="3"></circle>
+      </g>
+    </symbol>
+
+    <!-- Triple lumen (3-branch) -->
+    <symbol id="i-triple" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <line x1="12" y1="22" x2="12" y2="14"></line>
+        <line x1="12" y1="14" x2="4" y2="6"></line>
+        <line x1="12" y1="14" x2="20" y2="6"></line>
+        <line x1="12" y1="14" x2="12" y2="2"></line>
+        <circle cx="12" cy="14" r="1.5" fill="currentColor"></circle>
+      </g>
+    </symbol>
+
+    <!-- Pressure bag / cuff -->
+    <symbol id="i-pressure" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="6" y="4" width="12" height="14" rx="1"></rect>
+        <line x1="9" y1="8" x2="15" y2="8"></line>
+        <line x1="9" y1="11" x2="15" y2="11"></line>
+        <path d="M18 9c2 0 3 1 3 3s-1 3-3 3"></path>
+        <line x1="12" y1="18" x2="12" y2="22"></line>
+      </g>
+    </symbol>
+
+    <!-- Search -->
+    <symbol id="i-search" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </g>
+    </symbol>
+
+    <!-- Check / tick -->
+    <symbol id="i-check" viewBox="0 0 24 24">
+      <polyline points="4,12 10,18 20,6" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"></polyline>
+    </symbol>
+
+    <!-- Heart -->
+    <symbol id="i-heart" viewBox="0 0 24 24">
+      <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+    </symbol>
+
+    <!-- Mail -->
+    <symbol id="i-mail" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+        <polyline points="2,7 12,13 22,7"></polyline>
+      </g>
+    </symbol>
+
+    <!-- Speech bubble -->
+    <symbol id="i-feedback" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"></path>
+      </g>
+    </symbol>
+
+    <!-- Warning triangle -->
+    <symbol id="i-warn" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"></path>
+        <line x1="12" y1="9" x2="12" y2="13"></line>
+        <line x1="12" y1="17" x2="12.01" y2="17"></line>
+      </g>
+    </symbol>
+
+    <!-- Map pin -->
+    <symbol id="i-pin" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+        <circle cx="12" cy="10" r="3"></circle>
+      </g>
+    </symbol>
+
+    <!-- Camera -->
+    <symbol id="i-camera" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path>
+        <circle cx="12" cy="13" r="4"></circle>
+      </g>
+    </symbol>
+
+    <!-- Empty / search no result -->
+    <symbol id="i-empty" viewBox="0 0 24 24">
+      <g fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+        <line x1="8" y1="11" x2="14" y2="11"></line>
+      </g>
+    </symbol>
+  </defs>
+</svg>
+
+<!-- ============ HEADER ============ -->
+<header class="poster-header">
+  <h1 class="display">
+    Epidural Top-Up Box
+    <span class="small-line">Checklist · Locator</span>
+  </h1>
+  <div class="spine-icon" aria-hidden="true" style="color: var(--yellow);">
+    <svg><use href="#i-spine"></use></svg>
+  </div>
+  <div class="check-banner">
+    <span>Check before use <span class="tick">✓</span></span>
+    <span class="divider">·</span>
+    <span>Restock after use <span class="tick">✓</span></span>
+  </div>
+</header>
+
+<!-- ============ SEARCH ============ -->
+<div class="search-wrap">
+  <span class="search-icon"><svg width="18" height="18"><use href="#i-search"></use></svg></span>
+  <input class="search" id="search" type="search" placeholder="Search — e.g. tourniquet, ephedrine, 18G…" autocomplete="off">
+</div>
+
+<!-- ============ TOP BOX TITLE ============ -->
+<div class="section-title">
+  <span class="pill"><svg width="18" height="18" style="color:var(--yellow)"><use href="#i-box"></use></svg>Top Box</span>
+  <span class="line"></span>
+</div>
+
+<main>
+  <div id="trays" class="tray-grid"><section class="tray tray-yellow">
+      <div class="tray-header">
+        <span class="tray-icon"><svg><use href="#i-drugprep"></use></svg></span>
+        <span class="tray-title">Yellow Tray<small>Drug Prep</small></span>
+      </div>
+      <div class="tray-body"><button type="button" class="item" data-source="TRAYS" data-tray-idx="0" data-item-idx="0"><span class="checkbox" role="checkbox" aria-label="Mark Ethyl chloride spray checked"></span><span class="item-icon" style="color: rgb(17, 17, 17);"><svg><use href="#i-snow"></use></svg></span><span class="item-name">Ethyl chloride spray</span><span class="item-qty">×1</span></button><button type="button" class="item" data-source="TRAYS" data-tray-idx="0" data-item-idx="1"><span class="checkbox" role="checkbox" aria-label="Mark NRFit drawing-up needles checked"></span><span class="item-icon" style="color: rgb(17, 17, 17);"><svg><use href="#i-syringe"></use></svg></span><span class="item-name">NRFit drawing-up needles</span><span class="item-qty">×2</span></button><button type="button" class="item" data-source="TRAYS" data-tray-idx="0" data-item-idx="2"><span class="checkbox" role="checkbox" aria-label="Mark 20 ml NRFit syringe checked"></span><span class="item-icon" style="color: rgb(17, 17, 17);"><svg><use href="#i-syringe-filled"></use></svg></span><span class="item-name">20 ml NRFit syringe</span><span class="item-qty">×1</span></button><button type="button" class="item" data-source="TRAYS" data-tray-idx="0" data-item-idx="3"><span class="checkbox" role="checkbox" aria-label="Mark NRFit cap checked"></span><span class="item-icon" style="color: rgb(17, 17, 17);"><svg><use href="#i-cap"></use></svg></span><span class="item-name">NRFit cap</span><span class="item-qty">×1</span></button><button type="button" class="item" data-source="TRAYS" data-tray-idx="0" data-item-idx="4"><span class="checkbox" role="checkbox" aria-label="Mark Filter needle checked"></span><span class="item-icon" style="color: rgb(17, 17, 17);"><svg><use href="#i-filter"></use></svg></span><span class="item-name">Filter needle</span><span class="item-qty">×1</span></button><button type="button" class="item" data-source="TRAYS" data-tray-idx="0" data-item-idx="5"><span class="checkbox" role="checkbox" aria-label="Mark 1 ml syringe checked"></span><span class="item-icon" style="color: rgb(17, 17, 17);"><svg><use href="#i-syringe"></use></svg></span><span class="item-name">1 ml syringe</span><span class="item-qty">×1</span></button><button type="button" class="item" data-source="TRAYS" data-tray-idx="0" data-item-idx="6"><span class="checkbox" role="checkbox" aria-label="Mark Adrenaline 1 mg checked"></span><span class="item-icon" style="color: rgb(17, 17, 17);"><svg><use href="#i-ampoule"></use></svg></span><span class="item-name">Adrenaline 1 mg</span><span class="item-qty">×1</span></button><button type="button" class="item" data-source="TRAYS" data-tray-idx="0" data-item-idx="7"><span class="checkbox" role="checkbox" aria-label="Mark Lidocaine 2% (20 ml) checked"></span><span class="item-icon" style="color: rgb(17, 17, 17);"><svg><use href="#i-vial"></use></svg></span><span class="item-name">Lidocaine 2% (20 ml)</span><span class="item-qty">×1</span></button><button type="button" class="item" data-source="TRAYS" data-tray-idx="0" data-item-idx="8"><span class="checkbox" role="checkbox" aria-label="Mark Drug labels checked"></span><span class="item-icon" style="color: rgb(17, 17, 17);"><svg><use href="#i-tag"></use></svg></span><span class="item-name">Drug labels<span class="sub">Lidocaine, Adrenaline</span></span><span class="item-qty">×1</span></button></div>
+    </section><section class="tray tray-red">
+      <div class="tray-header">
+        <span class="tray-icon"><svg><use href="#i-drop"></use></svg></span>
+        <span class="tray-title">Red Tray<small>Cannulation</small></span>
+      </div>
+      <div class="tray-body"><button type="button" class="item" data-source="TRAYS" data-tray-idx="1" data-item-idx="0"><span class="checkbox" role="checkbox" aria-label="Mark 16G cannula checked"></span><span class="item-icon" style="color: rgb(192, 0, 0);"><svg><use href="#i-cannula"></use></svg></span><span class="item-name">16G cannula</span><span class="item-qty">×2</span></button><button type="button" class="item" data-source="TRAYS" data-tray-idx="1" data-item-idx="1"><span class="checkbox" role="checkbox" aria-label="Mark 18G cannula checked"></span><span class="item-icon" style="color: rgb(192, 0, 0);"><svg><use href="#i-cannula"></use></svg></span><span class="item-name">18G cannula</span><span class="item-qty">×2</span></button><button type="button" class="item" data-source="TRAYS" data-tray-idx="1" data-item-idx="2"><span class="checkbox" role="checkbox" aria-label="Mark CHG 2% wipes checked"></span><span class="item-icon" style="color: rgb(192, 0, 0);"><svg><use href="#i-wipe"></use></svg></span><span class="item-name">CHG 2% wipes</span><span class="item-qty">×2</span></button><button type="button" class="item" data-source="TRAYS" data-tray-idx="1" data-item-idx="3"><span class="checkbox" role="checkbox" aria-label="Mark Cannula dressings checked"></span><span class="item-icon" style="color: rgb(192, 0, 0);"><svg><use href="#i-dressing"></use></svg></span><span class="item-name">Cannula dressings</span><span class="item-qty">×2</span></button><button type="button" class="item" data-source="TRAYS" data-tray-idx="1" data-item-idx="4"><span class="checkbox" role="checkbox" aria-label="Mark Tourniquet checked"></span><span class="item-icon" style="color: rgb(192, 0, 0);"><svg><use href="#i-tourniquet"></use></svg></span><span class="item-name">Tourniquet</span><span class="item-qty">×1</span></button><button type="button" class="item" data-source="TRAYS" data-tray-idx="1" data-item-idx="5"><span class="checkbox" role="checkbox" aria-label="Mark Blood tubes + blood gas syringe checked"></span><span class="item-icon" style="color: rgb(192, 0, 0);"><svg><use href="#i-tube"></use></svg></span><span class="item-name">Blood tubes + blood gas syringe</span><span class="item-qty">×2</span></button><button type="button" class="item" data-source="TRAYS" data-tray-idx="1" data-item-idx="6"><span class="checkbox" role="checkbox" aria-label="Mark Green swabs checked"></span><span class="item-icon" style="color: rgb(192, 0, 0);"><svg><use href="#i-swab"></use></svg></span><span class="item-name">Green swabs</span><span class="item-qty">× pack</span></button><button type="button" class="item" data-source="TRAYS" data-tray-idx="1" data-item-idx="7"><span class="checkbox" role="checkbox" aria-label="Mark Tape checked"></span><span class="item-icon" style="color: rgb(192, 0, 0);"><svg><use href="#i-tape"></use></svg></span><span class="item-name">Tape</span><span class="item-qty">×1</span></button></div>
+    </section><section class="tray tray-blue">
+      <div class="tray-header">
+        <span class="tray-icon"><svg><use href="#i-syringe"></use></svg></span>
+        <span class="tray-title">Blue Tray<small>Syringes &amp; Access</small></span>
+      </div>
+      <div class="tray-body"><button type="button" class="item" data-source="TRAYS" data-tray-idx="2" data-item-idx="0"><span class="checkbox" role="checkbox" aria-label="Mark Filter needles checked"></span><span class="item-icon" style="color: rgb(31, 78, 121);"><svg><use href="#i-filter"></use></svg></span><span class="item-name">Filter needles</span><span class="item-qty">×2</span></button><button type="button" class="item" data-source="TRAYS" data-tray-idx="2" data-item-idx="1"><span class="checkbox" role="checkbox" aria-label="Mark 10 ml syringes checked"></span><span class="item-icon" style="color: rgb(31, 78, 121);"><svg><use href="#i-syringe-filled"></use></svg></span><span class="item-name">10 ml syringes</span><span class="item-qty">×2</span></button><button type="button" class="item" data-source="TRAYS" data-tray-idx="2" data-item-idx="2"><span class="checkbox" role="checkbox" aria-label="Mark 3 ml syringes checked"></span><span class="item-icon" style="color: rgb(31, 78, 121);"><svg><use href="#i-syringe"></use></svg></span><span class="item-name">3 ml syringes</span><span class="item-qty">×2</span></button><button type="button" class="item" data-source="TRAYS" data-tray-idx="2" data-item-idx="3"><span class="checkbox" role="checkbox" aria-label="Mark Safety needles 25G checked"></span><span class="item-icon" style="color: rgb(31, 78, 121);"><svg><use href="#i-syringe"></use></svg></span><span class="item-name">Safety needles 25G</span><span class="item-qty">×2</span></button><button type="button" class="item" data-source="TRAYS" data-tray-idx="2" data-item-idx="4"><span class="checkbox" role="checkbox" aria-label="Mark Safety needles 23G checked"></span><span class="item-icon" style="color: rgb(31, 78, 121);"><svg><use href="#i-syringe"></use></svg></span><span class="item-name">Safety needles 23G</span><span class="item-qty">×2</span></button><button type="button" class="item" data-source="TRAYS" data-tray-idx="2" data-item-idx="5"><span class="checkbox" role="checkbox" aria-label="Mark 0.9% sodium chloride 10 ml checked"></span><span class="item-icon" style="color: rgb(31, 78, 121);"><svg><use href="#i-vial"></use></svg></span><span class="item-name">0.9% sodium chloride 10 ml</span><span class="item-qty">×2</span></button><button type="button" class="item" data-source="TRAYS" data-tray-idx="2" data-item-idx="6"><span class="checkbox" role="checkbox" aria-label="Mark Drug labels checked"></span><span class="item-icon" style="color: rgb(31, 78, 121);"><svg><use href="#i-tag"></use></svg></span><span class="item-name">Drug labels<span class="sub">Tranexamic acid, Ergometrine, Oxytocin</span></span><span class="item-qty">×1</span></button></div>
+    </section></div>
+  <div id="strips"><section class="strip-tray tray-green">
+      <div class="tray-header">
+        <span class="tray-icon"><svg><use href="#i-drugpack"></use></svg></span>
+        <span class="tray-title">Additional Drugs</span>
+      </div>
+      <div class="tray-body"><button type="button" class="item" data-source="STRIPS" data-tray-idx="0" data-item-idx="0"><span class="checkbox" role="checkbox" aria-label="Mark Ephedrine pre-filled syringe checked"></span><span class="item-icon" style="color: rgb(46, 125, 50);"><svg><use href="#i-syringe-filled"></use></svg></span><span class="item-name">Ephedrine pre-filled syringe</span><span class="item-qty">×1</span></button></div>
+    </section><section class="strip-tray tray-black">
+      <div class="tray-header">
+        <span class="tray-icon"><svg><use href="#i-box"></use></svg></span>
+        <span class="tray-title">Bottom Box<small>Fluids &amp; lines</small></span>
+      </div>
+      <div class="grid-2"><button type="button" class="item" data-source="STRIPS" data-tray-idx="1" data-item-idx="0"><span class="checkbox" role="checkbox" aria-label="Mark Blood giving set checked"></span><span class="item-icon" style="color: rgb(17, 17, 17);"><svg><use href="#i-givingset"></use></svg></span><span class="item-name">Blood giving set</span><span class="item-qty">×1</span></button><button type="button" class="item" data-source="STRIPS" data-tray-idx="1" data-item-idx="1"><span class="checkbox" role="checkbox" aria-label="Mark Three-way stopcock checked"></span><span class="item-icon" style="color: rgb(17, 17, 17);"><svg><use href="#i-stopcock"></use></svg></span><span class="item-name">Three-way stopcock</span><span class="item-qty">×1</span></button><button type="button" class="item" data-source="STRIPS" data-tray-idx="1" data-item-idx="2"><span class="checkbox" role="checkbox" aria-label="Mark Extension line checked"></span><span class="item-icon" style="color: rgb(17, 17, 17);"><svg><use href="#i-extension"></use></svg></span><span class="item-name">Extension line</span><span class="item-qty">×1</span></button><button type="button" class="item" data-source="STRIPS" data-tray-idx="1" data-item-idx="3"><span class="checkbox" role="checkbox" aria-label="Mark Triple lumen extension checked"></span><span class="item-icon" style="color: rgb(17, 17, 17);"><svg><use href="#i-triple"></use></svg></span><span class="item-name">Triple lumen extension</span><span class="item-qty">×1</span></button><button type="button" class="item" data-source="STRIPS" data-tray-idx="1" data-item-idx="4"><span class="checkbox" role="checkbox" aria-label="Mark Plasmalyte 1000 ml checked"></span><span class="item-icon" style="color: rgb(17, 17, 17);"><svg><use href="#i-iv-bag"></use></svg></span><span class="item-name">Plasmalyte 1000 ml</span><span class="item-qty">×1</span></button><button type="button" class="item" data-source="STRIPS" data-tray-idx="1" data-item-idx="5"><span class="checkbox" role="checkbox" aria-label="Mark Pressure bag checked"></span><span class="item-icon" style="color: rgb(17, 17, 17);"><svg><use href="#i-pressure"></use></svg></span><span class="item-name">Pressure bag<span class="sub">Re-usable after wiping if uncontaminated</span></span><span class="item-qty">×1</span></button></div>
+    </section></div>
+
+  <div class="final-row">
+    <div class="final-check">
+      <div class="fc-title">
+        <span class="big-tick"><svg><use href="#i-check"></use></svg></span>
+        Final Check
+      </div>
+      <label class="fc-row" data-fc="restocked">
+        <span class="checkbox"></span><span class="fc-label">Box fully restocked</span>
+      </label>
+      <label class="fc-row" data-fc="ready">
+        <span class="checkbox"></span><span class="fc-label">Ready for next patient</span>
+      </label>
+    </div>
+    <div class="remember">
+      <div class="heart-icon"><svg width="100%" height="100%"><use href="#i-heart"></use></svg></div>
+      <div class="text-block">
+        <div class="label">Remember:</div>
+        <div class="msg">Leave it ready for the next patient</div>
+      </div>
+    </div>
+  </div>
+
+  <div id="empty" class="empty-state" style="display:none;">
+    <svg><use href="#i-empty"></use></svg>
+    <div>No items match your search.</div>
+  </div>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="foot-grid">
+    <div class="foot-block">
+      <div class="foot-icon"><svg><use href="#i-feedback"></use></svg></div>
+      <div class="foot-content">
+        <div class="foot-title">Feedback</div>
+        <div class="foot-text">
+          Spotted something missing or out of date?<br>
+          <a href="https://docs.google.com/forms/d/e/1FAIpQLScTc6zyoFsoLPAcoqfSMONDgRbRlkVi46zb0vuL6OroK_jBng/viewform?usp=header" target="_blank" rel="noopener">Open the feedback form</a> — your feedback helps us improve.
+        </div>
+      </div>
+    </div>
+    <div class="foot-block">
+      <div class="foot-icon"><svg><use href="#i-mail"></use></svg></div>
+      <div class="foot-content">
+        <div class="foot-title">Contact</div>
+        <div class="foot-text">
+          <a href="mailto:katie.turnbull@nhs.scot">katie.turnbull@nhs.scot</a><br>
+          We welcome your comments and ideas.
+        </div>
+      </div>
+    </div>
+    <div style="text-align:center;">
+      <span class="nhs-badge">NHS<small>LOTHIAN</small></span>
+    </div>
+  </div>
+</footer>
+
+<div class="strapline">
+  <svg class="warn-icon" style="color:var(--black)"><use href="#i-warn"></use></svg>
+  Prepared today.<span class="sep">·</span>Safer tomorrow.
+</div>
+
+<!-- ============ MODAL ============ -->
+<div class="modal-backdrop" id="modalBackdrop">
+  <div class="modal-wrap">
+    <button class="modal-close" id="modalClose" aria-label="Close">×</button>
+    <div class="modal" role="dialog" aria-modal="true">
+      <span class="modal-tag" id="modalTag">Tray</span>
+      <h2 id="modalTitle">Item</h2>
+      <div class="qty-line" id="modalQty">×1</div>
+
+      <div class="modal-section">
+        <h3><svg><use href="#i-pin"></use></svg>Where to find it</h3>
+        <div class="modal-location" id="modalLocation">—</div>
+      </div>
+
+      <div class="modal-section">
+        <h3><svg><use href="#i-camera"></use></svg>Photo of storage location</h3>
+        <div class="modal-photo" id="modalPhoto">
+          <svg><use href="#i-camera"></use></svg>
+          <span>photo of cupboard / drawer goes here</span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<script>
+/* ============================================================
+   ALL DATA LIVES HERE — easy to edit without touching the page
+   - `icon` is the symbol ID from the icon library above
+   - Fill in `location` with where each item is kept.
+   - Fill in `locationPhoto` with an image filename once available.
+   ============================================================ */
+
+const TRAYS = [
+  {
+    key: "yellow",
+    title: "Yellow Tray",
+    subtitle: "Drug Prep",
+    cssClass: "tray-yellow",
+    tagBg: "#F2C200", tagText: "#111",
+    headerIcon: "i-drugprep",
+    items: [
+      { name: "Ethyl chloride spray", qty: "×1", icon: "i-snow", location: "", locationPhoto: null },
+      { name: "NRFit drawing-up needles", qty: "×2", icon: "i-syringe", location: "", locationPhoto: null },
+      { name: "20 ml NRFit syringe", qty: "×1", icon: "i-syringe-filled", location: "", locationPhoto: null },
+      { name: "NRFit cap", qty: "×1", icon: "i-cap", location: "", locationPhoto: null },
+      { name: "Filter needle", qty: "×1", icon: "i-filter", location: "", locationPhoto: null },
+      { name: "1 ml syringe", qty: "×1", icon: "i-syringe", location: "", locationPhoto: null },
+      { name: "Adrenaline 1 mg", qty: "×1", icon: "i-ampoule", location: "", locationPhoto: null },
+      { name: "Lidocaine 2% (20 ml)", qty: "×1", icon: "i-vial", location: "", locationPhoto: null },
+      { name: "Drug labels", sub: "Lidocaine, Adrenaline", qty: "×1", icon: "i-tag", location: "", locationPhoto: null }
+    ]
+  },
+  {
+    key: "red",
+    title: "Red Tray",
+    subtitle: "Cannulation",
+    cssClass: "tray-red",
+    tagBg: "#C00000", tagText: "#fff",
+    headerIcon: "i-drop",
+    items: [
+      { name: "16G cannula", qty: "×2", icon: "i-cannula", location: "", locationPhoto: null },
+      { name: "18G cannula", qty: "×2", icon: "i-cannula", location: "", locationPhoto: null },
+      { name: "CHG 2% wipes", qty: "×2", icon: "i-wipe", location: "", locationPhoto: null },
+      { name: "Cannula dressings", qty: "×2", icon: "i-dressing", location: "", locationPhoto: null },
+      { name: "Tourniquet", qty: "×1", icon: "i-tourniquet", location: "", locationPhoto: null },
+      { name: "Blood tubes + blood gas syringe", qty: "×2", icon: "i-tube", location: "", locationPhoto: null },
+      { name: "Green swabs", qty: "× pack", icon: "i-swab", location: "", locationPhoto: null },
+      { name: "Tape", qty: "×1", icon: "i-tape", location: "", locationPhoto: null }
+    ]
+  },
+  {
+    key: "blue",
+    title: "Blue Tray",
+    subtitle: "Syringes & Access",
+    cssClass: "tray-blue",
+    tagBg: "#1F4E79", tagText: "#fff",
+    headerIcon: "i-syringe",
+    items: [
+      { name: "Filter needles", qty: "×2", icon: "i-filter", location: "", locationPhoto: null },
+      { name: "10 ml syringes", qty: "×2", icon: "i-syringe-filled", location: "", locationPhoto: null },
+      { name: "3 ml syringes", qty: "×2", icon: "i-syringe", location: "", locationPhoto: null },
+      { name: "Safety needles 25G", qty: "×2", icon: "i-syringe", location: "", locationPhoto: null },
+      { name: "Safety needles 23G", qty: "×2", icon: "i-syringe", location: "", locationPhoto: null },
+      { name: "0.9% sodium chloride 10 ml", qty: "×2", icon: "i-vial", location: "", locationPhoto: null },
+      { name: "Drug labels", sub: "Tranexamic acid, Ergometrine, Oxytocin", qty: "×1", icon: "i-tag", location: "", locationPhoto: null }
+    ]
+  }
+];
+
+const STRIPS = [
+  {
+    key: "additional",
+    title: "Additional Drugs",
+    subtitle: "",
+    cssClass: "tray-green",
+    tagBg: "#2E7D32", tagText: "#fff",
+    headerIcon: "i-drugpack",
+    layout: "single",
+    items: [
+      { name: "Ephedrine pre-filled syringe", qty: "×1", icon: "i-syringe-filled", location: "", locationPhoto: null }
+    ]
+  },
+  {
+    key: "bottom",
+    title: "Bottom Box",
+    subtitle: "Fluids & lines",
+    cssClass: "tray-black",
+    tagBg: "#1a1a1a", tagText: "#fff",
+    headerIcon: "i-box",
+    layout: "double",
+    items: [
+      { name: "Blood giving set", qty: "×1", icon: "i-givingset", location: "", locationPhoto: null },
+      { name: "Three-way stopcock", qty: "×1", icon: "i-stopcock", location: "", locationPhoto: null },
+      { name: "Extension line", qty: "×1", icon: "i-extension", location: "", locationPhoto: null },
+      { name: "Triple lumen extension", qty: "×1", icon: "i-triple", location: "", locationPhoto: null },
+      { name: "Plasmalyte 1000 ml", qty: "×1", icon: "i-iv-bag", location: "", locationPhoto: null },
+      { name: "Pressure bag", sub: "Re-usable after wiping if uncontaminated", qty: "×1", icon: "i-pressure", location: "", locationPhoto: null }
+    ]
+  }
+];
+
+/* ============ RENDER ============ */
+const traysEl = document.getElementById("trays");
+const stripsEl = document.getElementById("strips");
+const searchEl = document.getElementById("search");
+const emptyEl = document.getElementById("empty");
+
+function buildItemRow(tray, item, trayIdx, itemIdx, source) {
+  const row = document.createElement("button");
+  row.type = "button";
+  row.className = "item";
+  row.dataset.source = source;
+  row.dataset.trayIdx = trayIdx;
+  row.dataset.itemIdx = itemIdx;
+
+  // checkbox (stops propagation so it doesn't open modal)
+  const cb = document.createElement("span");
+  cb.className = "checkbox";
+  cb.setAttribute("role", "checkbox");
+  cb.setAttribute("aria-label", `Mark ${item.name} checked`);
+  cb.addEventListener("click", (e) => {
+    e.stopPropagation();
+    row.classList.toggle("checked");
+  });
+
+  // icon
+  const iconWrap = document.createElement("span");
+  iconWrap.className = "item-icon";
+  iconWrap.innerHTML = `<svg><use href="#${item.icon || 'i-box'}"/></svg>`;
+  // colour the item icon to match the tray
+  const iconColor =
+    tray.cssClass === "tray-yellow" ? "#111" :
+    tray.cssClass === "tray-red" ? "#C00000" :
+    tray.cssClass === "tray-blue" ? "#1F4E79" :
+    tray.cssClass === "tray-green" ? "#2E7D32" :
+    "#111";
+  iconWrap.style.color = iconColor;
+
+  // name (with optional sub)
+  const name = document.createElement("span");
+  name.className = "item-name";
+  name.innerHTML = item.sub
+    ? `${item.name}<span class="sub">${item.sub}</span>`
+    : item.name;
+
+  // qty badge
+  const qty = document.createElement("span");
+  qty.className = "item-qty";
+  qty.textContent = item.qty;
+
+  row.appendChild(cb);
+  row.appendChild(iconWrap);
+  row.appendChild(name);
+  row.appendChild(qty);
+  row.addEventListener("click", () => openModal(source, trayIdx, itemIdx));
+  return row;
+}
+
+function renderAll(filter = "") {
+  traysEl.innerHTML = "";
+  stripsEl.innerHTML = "";
+  const f = filter.trim().toLowerCase();
+  let totalShown = 0;
+
+  // Top three trays
+  TRAYS.forEach((tray, trayIdx) => {
+    const matched = tray.items
+      .map((item, itemIdx) => ({ item, itemIdx }))
+      .filter(({ item }) => !f
+        || item.name.toLowerCase().includes(f)
+        || (item.sub && item.sub.toLowerCase().includes(f)));
+    if (matched.length === 0) return;
+
+    const trayDiv = document.createElement("section");
+    trayDiv.className = "tray " + tray.cssClass;
+
+    trayDiv.innerHTML = `
+      <div class="tray-header">
+        <span class="tray-icon"><svg><use href="#${tray.headerIcon}"/></svg></span>
+        <span class="tray-title">${tray.title}<small>${tray.subtitle}</small></span>
+      </div>
+      <div class="tray-body"></div>
+    `;
+    const body = trayDiv.querySelector(".tray-body");
+    matched.forEach(({ item, itemIdx }) => {
+      body.appendChild(buildItemRow(tray, item, trayIdx, itemIdx, "TRAYS"));
+      totalShown++;
+    });
+    traysEl.appendChild(trayDiv);
+  });
+
+  // Strip trays (additional + bottom)
+  STRIPS.forEach((tray, trayIdx) => {
+    const matched = tray.items
+      .map((item, itemIdx) => ({ item, itemIdx }))
+      .filter(({ item }) => !f
+        || item.name.toLowerCase().includes(f)
+        || (item.sub && item.sub.toLowerCase().includes(f)));
+    if (matched.length === 0) return;
+
+    const trayDiv = document.createElement("section");
+    trayDiv.className = "strip-tray " + tray.cssClass;
+
+    const bodyClass = tray.layout === "double" ? "grid-2" : "tray-body";
+    trayDiv.innerHTML = `
+      <div class="tray-header">
+        <span class="tray-icon"><svg><use href="#${tray.headerIcon}"/></svg></span>
+        <span class="tray-title">${tray.title}${tray.subtitle ? `<small>${tray.subtitle}</small>` : ""}</span>
+      </div>
+      <div class="${bodyClass}"></div>
+    `;
+    const body = trayDiv.querySelector("." + bodyClass);
+    matched.forEach(({ item, itemIdx }) => {
+      body.appendChild(buildItemRow(tray, item, trayIdx, itemIdx, "STRIPS"));
+      totalShown++;
+    });
+    stripsEl.appendChild(trayDiv);
+  });
+
+  emptyEl.style.display = totalShown === 0 ? "flex" : "none";
+}
+
+/* ============ MODAL ============ */
+const backdrop = document.getElementById("modalBackdrop");
+const modalTag = document.getElementById("modalTag");
+const modalTitle = document.getElementById("modalTitle");
+const modalQty = document.getElementById("modalQty");
+const modalLocation = document.getElementById("modalLocation");
+const modalPhoto = document.getElementById("modalPhoto");
+const modalClose = document.getElementById("modalClose");
+
+function openModal(source, trayIdx, itemIdx) {
+  const tray = (source === "TRAYS" ? TRAYS : STRIPS)[trayIdx];
+  const item = tray.items[itemIdx];
+
+  modalTag.textContent = tray.title + (tray.subtitle ? " · " + tray.subtitle : "");
+  modalTag.style.background = tray.tagBg;
+  modalTag.style.color = tray.tagText;
+
+  modalTitle.textContent = item.name + (item.sub ? "" : "");
+  modalQty.innerHTML = `Quantity required: <strong style="margin-left:4px">${item.qty}</strong>`;
+
+  if (item.location && item.location.trim()) {
+    modalLocation.textContent = item.location;
+    modalLocation.classList.remove("placeholder");
+  } else {
+    modalLocation.textContent = "Location not yet recorded — Katie to fill in.";
+    modalLocation.classList.add("placeholder");
+  }
+
+  if (item.locationPhoto) {
+    modalPhoto.innerHTML = `<img src="${item.locationPhoto}" alt="${item.name} storage location" style="width:100%;height:100%;object-fit:cover;border-radius:8px;">`;
+    modalPhoto.style.border = "none";
+    modalPhoto.style.padding = "0";
+  } else {
+    modalPhoto.innerHTML = `<svg><use href="#i-camera"/></svg><span>photo of cupboard / drawer goes here</span>`;
+    modalPhoto.style.border = "2.5px dashed var(--grey)";
+  }
+
+  backdrop.classList.add("open");
+}
+function closeModal() { backdrop.classList.remove("open"); }
+modalClose.addEventListener("click", closeModal);
+backdrop.addEventListener("click", e => { if (e.target === backdrop) closeModal(); });
+document.addEventListener("keydown", e => { if (e.key === "Escape") closeModal(); });
+
+/* ============ FINAL CHECK ROWS ============ */
+document.querySelectorAll(".fc-row").forEach(r => {
+  r.addEventListener("click", e => {
+    e.preventDefault();
+    r.classList.toggle("checked");
+  });
+});
+
+/* ============ SEARCH ============ */
+searchEl.addEventListener("input", () => renderAll(searchEl.value));
+
+/* ============ INIT ============ */
+renderAll();
+</script>
+
+
+
+</body></html>
